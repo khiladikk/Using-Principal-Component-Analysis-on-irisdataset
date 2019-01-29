@@ -21,12 +21,13 @@ Reducing the dimension by determining a subset of the feature space.
 2. Feature Extraction:
 Selecting a smaller new set of features from the original set. This includes PCA, kernel PCA, Latent Semantic Analysis.
 
-'''
+```
+
 Goal of use PCA:
 
 Reducing the dimenslity of data but retaining as much of it's varience.
 
-'''
+```
 
 ## Why reduce the dimensions of the data:
 
@@ -40,19 +41,19 @@ As the dimensions of data increases, the difficulty to visualize it and perform 
 PCA finds a new set of dimensions (or a set of basis of views) such that all the dimensions are orthogonal (and hence linearly independent) and ranked according to the variance of data along them. It means more important principle
 axis occurs first. (more important = more variance/more spread out data)
 
-So, how to reduce the dimensions of a data-
+## So, how to reduce the dimensions of a data-
 
-'''
+```
 * Remove the redundant dimensions
 * Only keep the most important dimensions
-'''
+```
 
-Required Tool:
+## Required Tool:
 
 Sklearn, matplotlib
 
-'''
+```
 Pip install sklearn
 pip install matplotlib
 
-'''
+```
